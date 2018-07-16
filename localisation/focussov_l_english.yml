@@ -10,6 +10,11 @@
  SOV_expand_nkvd:0 "Expand the NKVD"
  SOV_expand_nkvd_desc:0 "We need to improve our security services if we are to resist threats both within and without."
  SOV_clap_for_stalin:0 "Clap for Stalin"
- SOV_clap_for_stalin_desc:0 "If a member of the esteemed party is refusing to clap our leader and general secretary Stalin, then maybe they are unfit for their position and a member of the Trotskyite plot.
+ SOV_clap_for_stalin_desc:0 "If a member of the esteemed party is refusing to clap our leader and general secretary Stalin, then maybe they are unfit for their position and a member of the Trotskyite plot?"
+ SOV_second_red_terror:0 "The Sceond Red Terror"
+ SOV_second_red_terror_desc:0 "A new cleansing of the countryside is needed if we are to find out Trotskyites hiding under our noses."
+ SOV_incentives_betrayal:0 "Incentives For Betrayal"
+ SOV_incentives_betrayal_desc:0 "Perhaps by promising a life marginally better than others, we can ensure our citizens do their duty to report subversives? Of course, if they lie, they must be a subversive!"
+ 
  
  
