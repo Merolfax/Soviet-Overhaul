@@ -1,0 +1,73 @@
+
+add_namespace = sov
+
+country_event = {
+	id = sov.100
+	title = sov.100.t
+	desc = sov.100.d
+	picture = GFX_report_event_soviet_army_greeted
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = sov.100.a
+		LEN = { 
+			annex_country = {
+			target = SOV
+			transfer_troops = yes
+			}
+			
+		}
+		LEN = { change_tag_from = ROOT }
+	}
+}
+
+country_event = {
+	id = sov.102
+	title = sov.102.t
+	desc = sov.102.d
+	picture = GFX_report_event_soviet_army_greeted
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = sov.102.a
+		set_cosmetic_tag = TSO
+	}
+}
+
+country_event = {
+	id = sov.101
+	title = sov.101.t
+	desc = sov.101.d
+	picture = GFX_report_event_soviet_army_greeted
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = sov.101.a
+		set_politics = {
+		ruling_party = democratic
+		}
+	}
+	option = {
+		name = sov.101.b
+		set_politics = {
+		ruling_party = fascism
+		}
+	}
+	option = {
+		name = sov.101.c
+		set_politics = {
+		ruling_party = communism
+		}
+	}
+	option = {
+		name = sov.101.d
+		set_politics = {
+		ruling_party = neutrality
+		}
+	}
+
+	}
+}

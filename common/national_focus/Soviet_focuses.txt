@@ -1,0 +1,2008 @@
+focus_tree = {
+	id = soviet
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = SOV
+		}
+	}
+	default = no
+	
+	
+	
+	continuous_focus_position = { x = 50 y = 2400 }
+	
+	
+	focus = {
+		id = sov_0
+		text = SOV_lenin_burial
+		icon = GFX_goal_unknown
+		cost = 1.00
+		x = 39
+		y = 0
+
+	}
+	focus = {
+		id = sov_1
+		text = SOV_great_purge
+		icon = GFX_goal_generic_attack_allies
+		cost = 20.00
+		prerequisite = {
+			focus = sov_0
+		}
+		x = 39
+		y = 1
+
+	}
+	focus = {
+		id = sov_2
+		text = SOV_increased_paranoia
+		icon = GFX_goal_unknown
+		cost = 1.00
+		prerequisite = {
+			focus = sov_1
+		}
+		x = 21
+		y = 2
+
+	}
+	focus = {
+		id = sov_3
+		text = SOV_businness_usual
+		icon = GFX_goal_unknown
+		cost = 1.00
+		prerequisite = {
+			focus = sov_1
+		}
+		x = 59
+		y = 2
+
+	}
+	focus = {
+		id = sov_4
+		text = SOV_expand_nkvd
+		icon = GFX_soviet_shield
+		cost = 5.00
+		prerequisite = {
+			focus = sov_2
+		}
+		x = 20
+		y = 4
+		}
+		focus = {
+		id = sov_5
+		text = SOV_clap_for_stalin
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = sov_2
+		}
+		x = 21
+		y = 3
+		}
+		focus = {
+		id = sov_6
+		text = SOV_second_red_terror
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = sov_2
+		}
+		x = 22
+		y = 4
+		}
+		focus = {
+		id = sov_7
+		text = SOV_incentives_betrayal
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = sov_2
+		}
+		x = 23
+		y = 3
+
+	}
+	focus = {
+		id = sov_8
+		text = SOV_strict_rations
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = sov_2
+		}
+		x = 19
+		y = 3
+
+	}
+	focus = {
+		id = sov_9
+		text = SOV_periodic_purges
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = sov_7
+		}
+		prerequisite = {
+			focus = sov_6
+		}
+		prerequisite = {
+			focus = sov_5
+		}
+		prerequisite = {
+			focus = sov_4
+		}
+		prerequisite = {
+			focus = sov_8
+		}
+		x = 23
+		y = 5
+
+	}
+	focus = {
+		id = sov_10
+		text = SOV_more_statues
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = sov_4
+		}
+		prerequisite = {
+			focus = sov_5
+		}
+		prerequisite = {
+			focus = sov_6
+		}
+		prerequisite = {
+			focus = sov_7
+		}
+		prerequisite = {
+			focus = sov_8
+		}
+		x = 19
+		y = 5
+
+	}
+	focus = {
+		id = sov_11
+		text = SOV_claps_and_laughs
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = sov_10
+		}
+		prerequisite = {
+			focus = sov_9
+		}
+		mutually_exclusive = {
+			focus = sov_12
+		}
+		x = 10
+		y = 6
+
+	}
+	focus = {
+		id = sov_12
+		text = SOV_sticks_and_stones
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = sov_9
+		}
+		prerequisite = {
+			focus = sov_10
+		}
+		mutually_exclusive = {
+			focus = sov_11
+		}
+		x = 33
+		y = 6
+
+	}
+	focus = {
+		id = sov_13
+		text = SOV_unseen_police
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = sov_11
+		}
+		x = 10
+		y = 7
+
+	}
+	focus = {
+		id = sov_14
+		text = SOV_nonexistent_books
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = sov_11
+		}
+		x = 12
+		y = 7
+
+	}
+	focus = {
+		id = sov_15
+		text = SOV_fictional_meetings
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = sov_11
+		}
+		x = 8
+		y = 7
+
+	}
+	focus = {
+		id = sov_16
+		text = SOV_a_different_past
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = sov_14
+		}
+		x = 12
+		y = 8
+
+	}
+	focus = {
+		id = sov_17
+		text = SOV_data_collection
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = sov_13
+		}
+		x = 10
+		y = 8
+
+	}
+	focus = {
+		id = sov_18
+		text = SOV_false_prosperity
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = sov_15
+		}
+		x = 8
+		y = 8
+
+	}
+	focus = {
+		id = sov_19
+		text = SOV_fake_factories
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = sov_18
+		}
+		x = 8
+		y = 9
+
+	}
+	focus = {
+		id = sov_20
+		text = SOV_lost_records
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = sov_16
+		}
+		x = 12
+		y = 9
+
+	}
+	focus = {
+		id = sov_21
+		text = SOV_unperson
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = sov_17
+		}
+		x = 10
+		y = 9
+
+	}
+	focus = {
+		id = sov_22
+		text = SOV_the_eternal_leader
+		icon = GFX_the_eternal_leader
+		cost = 5.00
+		prerequisite = {
+			focus = sov_19
+		}
+		prerequisite = {
+			focus = sov_20
+		}
+		prerequisite = {
+			focus = sov_21
+		}
+		mutually_exclusive = {
+			focus = sov_23
+		}
+		x = 5
+		y = 10
+
+	}
+	focus = {
+		id = sov_23
+		text = SOV_an_unimportant_death
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = sov_19
+		}
+		prerequisite = {
+			focus = sov_20
+		}
+		prerequisite = {
+			focus = sov_21
+		}
+		mutually_exclusive = {
+			focus = sov_22
+		}
+		x = 15
+		y = 10
+
+	}
+	focus = {
+		id = sov_24
+		text = SOV_boogeyman_trotsky
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = sov_22
+		}
+		x = 7
+		y = 11
+
+	}
+	focus = {
+		id = sov_25
+		text = SOV_foreign_devils
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = sov_24
+		}
+		x = 7
+		y = 12
+
+	}
+	focus = {
+		id = sov_26
+		text = SOV_surpass_lenin
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = sov_27
+		}
+		x = 3
+		y = 13
+
+	}
+	focus = {
+		id = sov_27
+		text = SOV_just_stalin
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = sov_31
+		}
+		x = 3
+		y = 12
+
+	}
+	focus = {
+		id = sov_28
+		text = SOV_pseudo_godhood
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = sov_26
+		}
+		x = 3
+		y = 14
+
+	}
+	focus = {
+		id = sov_29
+		text = SOV_steel_curtain
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = sov_25
+		}
+		x = 7
+		y = 13
+
+	}
+	focus = {
+		id = sov_30
+		text = SOV_immortalisation
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = sov_28
+		}
+		x = 3
+		y = 15
+
+	}
+	focus = {
+		id = sov_31
+		text = SOV_useless_titles
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = sov_22
+		}
+		x = 3
+		y = 11
+
+	}
+	focus = {
+		id = sov_32
+		text = SOV_cut_off_trade
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = sov_29
+		}
+		x = 7
+		y = 14
+
+	}
+	focus = {
+		id = sov_33
+		text = SOV_no_hear_no_see
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = sov_32
+		}
+		x = 7
+		y = 15
+
+	}
+	focus = {
+		id = sov_34
+		text = SOV_new_fashion
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = sov_22
+		}
+		x = 5
+		y = 11
+
+	}
+	focus = {
+		id = sov_35
+		text = SOV_accepted_haircuts
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = sov_34
+		}
+		x = 5
+		y = 12
+
+	}
+		focus = {
+		id = sov_36
+		text = SOV_cultural_purge
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = sov_35
+		}
+		x = 5
+		y = 13
+
+	}
+	focus = {
+		id = sov_37
+		text = SOV_stalins_temple
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = sov_36
+		}
+		x = 5
+		y = 14
+
+	}
+	focus = {
+		id = sov_38
+		text = SOV_special_ideology
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = sov_37
+		}
+		x = 5
+		y = 15
+
+	}
+	focus = {
+		id = sov_39
+		text = SOV_live_forever
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = sov_33
+		}
+		prerequisite = {
+			focus = sov_30
+		}
+		x = 5
+		y = 16
+
+	}
+	focus = {
+		id = sov_40
+		text = SOV_the_unseen_struggle
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = sov_23
+		}
+		mutually_exclusive = {
+			focus = sov_41
+		}
+		x = 12
+		y = 11
+
+	}
+	focus = {
+		id = sov_41
+		text = SOV_nomenklatura_takeover
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = sov_23
+		}
+		mutually_exclusive = {
+			focus = sov_40
+		}
+		x = 18
+		y = 11
+
+	}
+	focus = {
+		id = sov_42
+		text = SOV_the_easy_way
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = sov_40
+			focus = sov_41
+		}
+		x = 15
+		y = 12
+
+	}
+	focus = {
+		id = sov_43
+		text = SOV_new_lists
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = sov_40
+		}
+		x = 12
+		y = 12
+
+	}
+	focus = {
+		id = sov_44
+		text = SOV_limited_mobility
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = sov_41
+		}
+		x = 18
+		y = 12
+
+	}
+	focus = {
+		id = sov_45
+		text = SOV_smoke_and_mirrors
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = sov_44
+		}
+		x = 18
+		y = 13
+
+	}
+	focus = {
+		id = sov_46
+		text = SOV_fossilize_the_party
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = sov_45
+		}
+		x = 18
+		y = 14
+
+	}
+	focus = {
+		id = sov_47
+		text = SOV_purge_the_careerists
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = sov_46
+		}
+		mutually_exclusive = {
+			focus = sov_48
+		}
+		x = 19
+		y = 15
+
+	}
+	focus = {
+		id = sov_48
+		text = SOV_purge_the_believers
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = sov_46
+		}
+		mutually_exclusive = {
+			focus = sov_47
+		}
+		x = 17
+		y = 15
+
+	}
+	focus = {
+		id = sov_49
+		text = SOV_merge_the_party_with_the_country
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = sov_47
+			focus = sov_48
+		}
+		x = 18
+		y = 16
+
+	}
+	focus = {
+		id = sov_50
+		text = SOV_purge_the_knowing
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = sov_42
+		}
+		x = 15
+		y = 13
+
+	}
+	focus = {
+		id = sov_51
+		text = SOV_immortal_fathers_eye
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = sov_50
+		}
+		x = 15
+		y = 14
+
+	}
+		focus = {
+		id = sov_52
+		text = SOV_stalins_files
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = sov_51
+		}
+		x = 15
+		y = 15
+
+	}
+	focus = {
+		id = sov_53
+		text = SOV_beloved_helper
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = sov_43
+		}
+		x = 12
+		y = 13
+
+	}
+	focus = {
+		id = sov_54
+		text = SOV_small_appearances
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = sov_53
+		}
+		x = 12
+		y = 14
+
+	}
+	focus = {
+		id = sov_55
+		text = SOV_personal_bureaucracy
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = sov_54
+		}
+		x = 12
+		y = 15
+
+	}
+	focus = {
+		id = sov_56
+		text = SOV_unveil_the_leader
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = sov_55
+		}
+		mutually_exclusive = {
+			focus = sov_57
+		}
+		x = 13
+		y = 16
+
+	}
+	focus = {
+		id = sov_57
+		text = SOV_keep_the_secret
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = sov_55
+		}
+		mutually_exclusive = {
+			focus = sov_56
+		}
+		x = 11
+		y = 16
+
+	}
+	focus = {
+		id = sov_58
+		text = SOV_permanent_illness
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = sov_56
+		}
+		x = 13
+		y = 17
+
+	}
+	focus = {
+		id = sov_59
+		text = SOV_purge_the_rumourmongers
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = sov_57
+		}
+		x = 11
+		y = 17
+
+	}
+	focus = {
+		id = sov_60
+		text = SOV_an_ideological_country
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = sov_49
+		}
+		x = 18
+		y = 17
+
+	}
+	focus = {
+		id = sov_61
+		text = SOV_total_control
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = sov_39
+		}
+		x = 5
+		y = 17
+
+	}
+	focus = {
+		id = sov_62
+		text = SOV_united_behind_stalin
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = sov_58
+			focus = sov_59
+			focus = sov_60
+			focus = sov_61
+		}
+		x = 12
+		y = 19
+
+	}
+	focus = {
+		id = sov_63
+		text = SOV_work_the_proles
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = sov_12
+		}
+		x = 31
+		y = 7
+
+	}
+	focus = {
+		id = sov_64
+		text = SOV_imprison_lazy_people
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = sov_63
+		}
+		x = 31
+		y = 8
+
+	}
+	focus = {
+		id = sov_65
+		text = SOV_forced_labour
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = sov_64
+		}
+		x = 31
+		y = 9
+
+	}
+	focus = {
+		id = sov_66
+		text = SOV_tear_the_constitution
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = sov_12
+		}
+		x = 33
+		y = 7
+
+	}
+	focus = {
+		id = sov_67
+		text = SOV_lock_the_politburo
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = sov_66
+		}
+		x = 33
+		y = 8
+
+	}
+	focus = {
+		id = sov_68
+		text = SOV_militarise_the_nkvd
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = sov_12
+		}
+		x = 35
+		y = 7
+
+	}
+	focus = {
+		id = sov_69
+		text = SOV_close_the_soviets
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = sov_67
+		}
+		x = 33
+		y = 9
+
+	}
+	focus = {
+		id = sov_70
+		text = SOV_carry_a_stick
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = sov_68
+		}
+		x = 35
+		y = 8
+
+	}
+	focus = {
+		id = sov_71
+		text = SOV_swing_it_around
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = sov_70
+		}
+		x = 35
+		y = 9
+
+	}
+	focus = {
+		id = sov_72
+		text = SOV_operation_unyielding_justice
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = sov_71
+		}
+		prerequisite = {
+			focus = sov_69
+		}
+		prerequisite = {
+			focus = sov_65
+		}
+		x = 33
+		y = 10
+
+	}
+	focus = {
+		id = sov_73
+		text = SOV_all_for_the_state
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = sov_72
+		}
+		x = 27
+		y = 11
+
+	}
+	focus = {
+		id = sov_74
+		text = SOV_the_state_for_the_people
+		icon = GFX_the_state_people
+		cost = 5.00
+		prerequisite = {
+			focus = sov_72
+		}
+		x = 39
+		y = 11
+
+	}
+	focus = {
+		id = sov_75
+		text = SOV_reconstruction
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = sov_73
+		}
+		x = 27
+		y = 13
+
+	}
+	focus = {
+		id = sov_76
+		text = SOV_brutalist_architecture
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = sov_75
+		}
+		x = 27
+		y = 14
+
+	}
+	focus = {
+		id = sov_77
+		text = SOV_sterilise_the_state
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = sov_73
+		}
+		mutually_exclusive = {
+			focus = sov_78
+		}
+		x = 26
+		y = 12
+
+	}
+	focus = {
+		id = sov_78
+		text = SOV_the_state_and_the_leader
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = sov_73
+		}
+		mutually_exclusive = {
+			focus = sov_77
+		}
+		x = 28
+		y = 12
+
+	}
+	focus = {
+		id = sov_79
+		text = SOV_destroy_cults_of_personalities
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = sov_77
+		}
+		x = 25
+		y = 13
+
+	}
+	focus = {
+		id = sov_80
+		text = SOV_constant_work
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = sov_79
+		}
+		x = 25
+		y = 14
+
+	}
+	focus = {
+		id = sov_81
+		text = SOV_glorify_bureaucrats
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = sov_80
+		}
+		x = 25
+		y = 15
+
+	}
+	focus = {
+		id = sov_82
+		text = SOV_functional_statues
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = sov_78
+		}
+		x = 29
+		y = 13
+
+	}
+	focus = {
+		id = sov_83
+		text = SOV_citizen_vouchers
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = sov_76
+		}
+		x = 27
+		y = 15
+
+	}
+	focus = {
+		id = sov_84
+		text = SOV_limit_the_cult
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = sov_82
+		}
+		x = 29
+		y = 14
+
+	}
+	focus = {
+		id = sov_85
+		text = SOV_disentangle_the_party_and_leader
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = sov_84
+		}
+		x = 29
+		y = 15
+
+	}
+	focus = {
+		id = sov_86
+		text = SOV_cult_of_the_state
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = sov_81
+		}
+		x = 25
+		y = 16
+
+	}
+	focus = {
+		id = sov_87
+		text = SOV_new_instutitions
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = sov_83
+		}
+		x = 27
+		y = 16
+
+	}
+	focus = {
+		id = sov_88
+		text = SOV_establish_the_presidency
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = sov_85
+		}
+		x = 29
+		y = 16
+
+	}
+	focus = {
+		id = sov_89
+		text = SOV_collective_dictatorship
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = sov_86
+		}
+		prerequisite = {
+			focus = sov_87
+		}
+		mutually_exclusive = {
+			focus = sov_90
+		}
+		x = 26
+		y = 17
+
+	}
+	focus = {
+		id = sov_90
+		text = SOV_one_leader
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = sov_86
+			focus = sov_88
+		}
+		prerequisite = {
+			focus = sov_87
+		}
+		mutually_exclusive = {
+			focus = sov_89
+		}
+		x = 28
+		y = 17
+
+	}
+	focus = {
+		id = sov_91
+		text = SOV_united_behind_the_state
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = sov_89
+			focus = sov_90
+		}
+		x = 27
+		y = 19
+
+	}
+	focus = {
+		id = sov_92
+		text = SOV_disband_the_nkvd
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = sov_74
+		}
+		x = 39
+		y = 12
+
+	}
+	focus = {
+		id = sov_93
+		text = SOV_burn_the_files
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = sov_92
+		}
+		x = 39
+		y = 13
+
+	}
+	focus = {
+		id = sov_94
+		text = SOV_checks_and_balances
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = sov_93
+		}
+		x = 39
+		y = 14
+
+	}
+	focus = {
+		id = sov_95
+		text = SOV_temporary_council
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = sov_74
+		}
+		x = 37
+		y = 12
+
+	}
+		focus = {
+		id = sov_96
+		text = SOV_unite_the_opposition
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = sov_95
+		}
+		x = 37
+		y = 13
+
+	}
+	focus = {
+		id = sov_97
+		text = SOV_arrest_the_stalinists
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = sov_74
+		}
+		x = 41
+		y = 12
+
+	}
+	focus = {
+		id = sov_98
+		text = SOV_promote_new_officers
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = sov_97
+		}
+		x = 41
+		y = 13
+
+	}
+	focus = {
+		id = sov_99
+		text = SOV_army_primacy
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = sov_98
+		}
+		x = 41
+		y = 14
+
+	}
+		focus = {
+		id = sov_100
+		text = SOV_smooth_reforms
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = sov_96
+		}
+		x = 37
+		y = 14
+
+	}
+	focus = {
+		id = sov_101
+		text = SOV_elections_now
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = sov_104
+		}
+		mutually_exclusive = {
+			focus = sov_102
+			focus = sov_103
+		}
+		x = 37
+		y = 16
+
+	}
+	focus = {
+		id = sov_102
+		text = SOV_lift_the_ban_on_factions
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = sov_104
+		}
+		mutually_exclusive = {
+			focus = sov_101
+			focus = sov_103
+		}
+		x = 39
+		y = 16
+
+	}
+	focus = {
+		id = sov_103
+		text = SOV_benevolent_junta
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = sov_104
+		}
+		mutually_exclusive = {
+			focus = sov_102
+		}
+		x = 41
+		y = 16
+
+	}
+	focus = {
+		id = sov_104
+		text = SOV_the_new_state
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = sov_94
+		}
+		prerequisite = {
+			focus = sov_99
+		}
+		prerequisite = {
+			focus = sov_100
+		}
+		x = 39
+		y = 15
+
+	}
+	focus = {
+		id = sov_105
+		text = SOV_a_new_constitution
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = sov_101
+		}
+		x = 37
+		y = 17
+
+	}
+	focus = {
+		id = sov_106
+		text = SOV_the_new_central_committee
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = sov_102
+		}
+		x = 39
+		y = 17
+
+	}
+	focus = {
+		id = sov_107
+		text = SOV_military_police
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = sov_103
+		}
+		x = 41
+		y = 17
+
+	}
+	focus = {
+		id = sov_108
+		text = SOV_neutral_politics
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = sov_113
+		}
+		x = 41
+		y = 19
+
+	}
+	focus = {
+		id = sov_109
+		text = SOV_appoint_the_chairman
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = sov_106
+		}
+		x = 39
+		y = 18
+
+	}
+	focus = {
+		id = sov_110
+		text = SOV_reconcile_the_opposition
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = sov_105
+		}
+		x = 37
+		y = 18
+
+	}
+	focus = {
+		id = sov_111
+		text = SOV_friendly_politics
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = sov_110
+		}
+		x = 37
+		y = 19
+
+	}
+	focus = {
+		id = sov_112
+		text = SOV_democratic_socialism
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = sov_109
+		}
+		x = 39
+		y = 19
+
+	}
+	focus = {
+		id = sov_113
+		text = SOV_civil_liberties
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = sov_107
+		}
+		x = 41
+		y = 18
+
+	}
+	focus = {
+		id = sov_114
+		text = SOV_chant_of_liberty
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = sov_108
+			focus = sov_111
+			focus = sov_112
+		}
+		x = 39
+		y = 20
+
+	}
+	focus = {
+		id = sov_115
+		text = SOV_consolidate_position
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = sov_3
+		}
+		x = 62
+		y = 3
+
+	}
+	focus = {
+		id = sov_116
+		text = SOV_stalin_constitution
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = sov_3
+		}
+		x = 60
+		y = 3
+
+	}
+	focus = {
+		id = sov_117
+		text = SOV_nkvd_primacy
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = sov_3
+		}
+		x = 58
+		y = 3
+
+	}
+	focus = {
+		id = sov_118
+		text = SOV_stakhanovism
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = sov_3
+		}
+		x = 56
+		y = 3
+
+	}
+	focus = {
+		id = sov_119
+		text = SOV_new_soviet_man
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = sov_118
+		}
+		x = 56
+		y = 4
+
+	}
+	focus = {
+		id = sov_120
+		text = SOV_nominal_premiership
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = sov_115
+		}
+		x = 62
+		y = 4
+
+	}
+	focus = {
+		id = sov_121
+		text = SOV_clear_out_anti_sovietism
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = sov_117
+		}
+		x = 58
+		y = 4
+
+	}
+	focus = {
+		id = sov_122
+		text = SOV_supreme_soviet
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = sov_116
+		}
+		x = 60
+		y = 4
+
+	}
+	focus = {
+		id = sov_123
+		text = SOV_return_of_trotsky
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = sov_119
+		}
+		prerequisite = {
+			focus = sov_120
+		}
+		prerequisite = {
+			focus = sov_121
+		}
+		prerequisite = {
+			focus = sov_122
+		}
+		x = 53
+		y = 5
+
+	}
+	focus = {
+		id = sov_124
+		text = SOV_stalins_union
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = sov_119
+		}
+		prerequisite = {
+			focus = sov_120
+		}
+		prerequisite = {
+			focus = sov_121
+		}
+		prerequisite = {
+			focus = sov_122
+		}
+		x = 65
+		y = 5
+
+	}
+	focus = {
+		id = sov_126
+		text = SOV_purge_stalins_allies
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = sov_123
+		}
+		x = 53
+		y = 6
+
+	}
+	focus = {
+		id = sov_127
+		text = SOV_rehabilitate_left_opposition
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = sov_123
+		}
+		x = 51
+		y = 6
+
+	}
+	focus = {
+		id = sov_128
+		text = SOV_eliminate_the_remnants
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = sov_123
+		}
+		x = 55
+		y = 6
+
+	}
+	focus = {
+		id = sov_129
+		text = SOV_loosen_the_leash
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = sov_127
+		}
+		x = 51
+		y = 7
+
+	}
+	focus = {
+		id = sov_130
+		text = SOV_replace_the_politburo
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = sov_126
+		}
+		x = 53
+		y = 7
+
+	}
+	focus = {
+		id = sov_131
+		text = SOV_trial_of_the_rightists
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = sov_128
+		}
+		x = 55
+		y = 7
+
+	}
+	focus = {
+		id = sov_132
+		text = SOV_A_simple_life
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = sov_129
+		}
+		x = 51
+		y = 8
+
+	}
+	focus = {
+		id = sov_133
+		text = SOV_purge_the_nomenklatura
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = sov_130
+		}
+		x = 53
+		y = 8
+
+	}
+	focus = {
+		id = sov_134
+		text = SOV_purge_the_junior_rightists
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = sov_131
+		}
+		x = 55
+		y = 8
+
+	}
+	focus = {
+		id = sov_135
+		text = SOV_equal_representation
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = sov_133
+		}
+		x = 53
+		y = 9
+
+	}
+	focus = {
+		id = sov_136
+		text = SOV_equals_with_lenin
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = sov_134
+		}
+		x = 55
+		y = 9
+
+	}
+	focus = {
+		id = sov_137
+		text = SOV_workers_culture
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = sov_132
+		}
+		x = 51
+		y = 9
+
+	}
+	focus = {
+		id = sov_138
+		text = SOV_we_are_together
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = sov_135
+		}
+		x = 53
+		y = 10
+
+	}
+	focus = {
+		id = sov_139
+		text = SOV_functional_buildings
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = sov_137
+		}
+		x = 51
+		y = 10
+
+	}
+	focus = {
+		id = sov_140
+		text = SOV_cult_of_trotsky
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = sov_136
+		}
+		x = 55
+		y = 10
+
+	}
+	focus = {
+		id = sov_141
+		text = SOV_female_liberation
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = sov_138
+		}
+		x = 53
+		y = 11
+
+	}
+	focus = {
+		id = sov_142
+		text = SOV_reorganise_the_nkvd
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = sov_139
+		}
+		x = 51
+		y = 11
+
+	}
+	focus = {
+		id = sov_143
+		text = SOV_rid_the_army
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = sov_140
+		}
+		x = 55
+		y = 11
+
+	}
+	focus = {
+		id = sov_144
+		text = SOV_unite_the_party
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = sov_123
+			focus = sov_124
+		}
+		x = 59
+		y = 6
+
+	}
+	focus = {
+		id = sov_145
+		text = SOV_no_opposition
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = sov_144
+		}
+		x = 59
+		y = 7
+
+	}
+	focus = {
+		id = sov_146
+		text = SOV_preemptive_strikes
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = sov_145
+		}
+		x = 59
+		y = 8
+
+	}
+	focus = {
+		id = sov_147
+		text = SOV_citizen_betrayal
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = sov_146
+		}
+		x = 59
+		y = 9
+
+	}
+	focus = {
+		id = sov_148
+		text = SOV_return_kollontai
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = sov_141
+		}
+		prerequisite = {
+			focus = sov_142
+		}
+		prerequisite = {
+			focus = sov_143
+		}
+		mutually_exclusive = {
+			focus = sov_148
+		}
+		x = 49
+		y = 12
+
+	}
+	focus = {
+		id = sov_148
+		text = SOV_no_compromise
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = sov_141
+		}
+		prerequisite = {
+			focus = sov_142
+		}
+		prerequisite = {
+			focus = sov_143
+		}
+		mutually_exclusive {
+			focus = sov_147
+		}
+		x = 57
+		y = 12
+
+	}
+	focus = {
+		id = sov_149
+		text = SOV_begin_debureaucratisation
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = sov_148
+		}
+		x = 48
+		y = 13
+
+	}
+	focus = {
+		id = sov_150
+		text = SOV_militarise_the_workers
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = sov_148
+		}
+		x = 50
+		y = 13
+
+	}
+	focus = {
+		id = sov_151
+		text = SOV_decentralise_the_administration
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = sov_149
+		}
+		x = 48
+		y = 14
+
+	}
+	focus = {
+		id = sov_152
+		text = SOV_a_gun_behind_every_bureaucrat
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = sov_150
+		}
+		x = 50
+		y = 14
+
+	}
