@@ -1,0 +1,15 @@
+spriteTypes = {	
+	SpriteType = {
+	name = "GFX_the_state_people"
+	texturefile = "gfx/interface/goals/the_state_people.dds"			
+	}	
+	
+	SpriteType = {
+	name = "GFX_soviet_shield"
+	texturefile = "gfx/interface/goals/soviet_shield.dds"			
+	}	
+	SpriteType = {
+	name = "GFX_the_eternal_leader"
+	texturefile = "gfx/interface/goals/focus_the_eternal_leader.dds"			
+	}	
+}

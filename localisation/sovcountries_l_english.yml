@@ -1,0 +1,14 @@
+﻿l_english:
+ LEN_communism:0 "Soviet Union"
+ LEN_communism_DEF:0 "The Soviet Union"
+ LEN_democratic:0 "Russia"
+ LEN_democratic_DEF:0 "Russia"
+ LEN_fascism:0 "Russian State"
+ LEN_fascism_DEF:0 "The Russian State"
+ LEN_neutrality:0 "Russian Empire"
+ LEN_neutrality_DEF:0 "The Russian Empire"
+ LEN_communism_ADJ:0 "Soviet"
+ LEN_democratic_ADJ:0 "Russian"
+ LEN_fascism_ADJ:0 "Russian"
+ LEN_neutrality_ADJ:0 "Russian"
+ 
