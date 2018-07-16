@@ -1,1 +1,1 @@
-LEN = "countries/Lenin.txt
+LEN = "countries/Lenin.txt"
