@@ -1,3 +1,0 @@
-LEN = {
-	color = rgb { 0 0 153 }
-	color_ui = rgb { 0 0 102 }
