@@ -1931,14 +1931,14 @@ focus_tree = {
 			focus = sov_143
 		}
 		mutually_exclusive = {
-			focus = sov_148
+			focus = sov_149
 		}
 		x = 49
 		y = 12
 
 	}
 	focus = {
-		id = sov_148
+		id = sov_149
 		text = SOV_no_compromise
 		icon = GFX_goal_unknown
 		cost = 5.00
@@ -1952,14 +1952,14 @@ focus_tree = {
 			focus = sov_143
 		}
 		mutually_exclusive {
-			focus = sov_147
+			focus = sov_148
 		}
 		x = 57
 		y = 12
 
 	}
 	focus = {
-		id = sov_149
+		id = sov_150
 		text = SOV_begin_debureaucratisation
 		icon = GFX_goal_unknown
 		cost = 10.00
@@ -1971,7 +1971,7 @@ focus_tree = {
 
 	}
 	focus = {
-		id = sov_150
+		id = sov_151
 		text = SOV_militarise_the_workers
 		icon = GFX_goal_unknown
 		cost = 5.00
@@ -1983,120 +1983,120 @@ focus_tree = {
 
 	}
 	focus = {
-		id = sov_151
+		id = sov_152
 		text = SOV_decentralise_the_administration
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = sov_149
-		}
-		x = 48
-		y = 14
-
-	}
-	focus = {
-		id = sov_152
-		text = SOV_a_gun_behind_every_bureaucrat
-		icon = GFX_goal_unknown
-		cost = 5.00
-		prerequisite = {
 			focus = sov_150
 		}
-		x = 50
+		x = 48
 		y = 14
 
 	}
 	focus = {
 		id = sov_153
+		text = SOV_a_gun_behind_every_bureaucrat
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = sov_151
+		}
+		x = 50
+		y = 14
+
+	}
+	focus = {
+		id = sov_154
 		text = SOV_reform_the_ministries
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = sov_151
+			focus = sov_152
 		}
 		x = 48
 		y = 15
 
 	}
 	focus = {
-		id = sov_154
+		id = sov_155
 		text = SOV_the_worst_offenders
 		icon = GFX_goal_unknown
 		cost = 5.00
 		prerequisite = {
-			focus = sov_152
+			focus = sov_153
 		}
 		x = 50
 		y = 15
 
 	}
 	focus = {
-		id = sov_155
+		id = sov_156
 		text = SOV_regenerate_the_state
 		icon = GFX_goal_unknown
 		cost = 5.00
 		prerequisite = {
-			focus = sov_148
+			focus = sov_149
 		}
 		x = 56
-		y = 13
-
-	}
-	focus = {
-		id = sov_156
-		text = SOV_centralization
-		icon = GFX_goal_unknown
-		cost = 5.00
-		prerequisite = {
-			focus = sov_148
-		}
-		x = 58
 		y = 13
 
 	}
 	focus = {
 		id = sov_157
+		text = SOV_centralization
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = sov_149
+		}
+		x = 58
+		y = 13
+
+	}
+	focus = {
+		id = sov_158
 		text = SOV_a_new_bureaucracy
 		icon = GFX_goal_unknown
 		cost = 5.00
 		prerequisite = {
-			focus = sov_155
+			focus = sov_156
 		}
 		x = 56
 		y = 14
 
 	}
 	focus = {
-		id = sov_158
+		id = sov_159
 		text = SOV_equal_opportunity
 		icon = GFX_goal_unknown
 		cost = 5.00
 		prerequisite = {
-			focus = sov_156
+			focus = sov_157
 		}
 		x = 58
 		y = 14
 
 	}
 	focus = {
-		id = sov_159
+		id = sov_160
 		text = SOV_revolving_positions
 		icon = GFX_goal_unknown
 		cost = 5.00
 		prerequisite = {
-			focus = sov_157
-		}
+			focus = sov_158
+			}
 		x = 56
 		y = 15
 
 	}
 	focus = {
-		id = sov_160
+		id = sov_161
 		text = SOV_bring_back_exiles
 		icon = GFX_goal_unknown
 		cost = 5.00
 		prerequisite = {
-			focus = sov_158
+			focus = sov_159
 		}
 		x = 58
 		y = 15
