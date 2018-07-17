@@ -2006,3 +2006,99 @@ focus_tree = {
 		y = 14
 
 	}
+	focus = {
+		id = sov_153
+		text = SOV_reform_the_ministries
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = sov_151
+		}
+		x = 48
+		y = 15
+
+	}
+	focus = {
+		id = sov_154
+		text = SOV_the_worst_offenders
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = sov_152
+		}
+		x = 50
+		y = 15
+
+	}
+	focus = {
+		id = sov_155
+		text = SOV_regenerate_the_state
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = sov_148
+		}
+		x = 56
+		y = 13
+
+	}
+	focus = {
+		id = sov_156
+		text = SOV_centralization
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = sov_148
+		}
+		x = 58
+		y = 13
+
+	}
+	focus = {
+		id = sov_157
+		text = SOV_a_new_bureaucracy
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = sov_155
+		}
+		x = 56
+		y = 14
+
+	}
+	focus = {
+		id = sov_158
+		text = SOV_equal_opportunity
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = sov_156
+		}
+		x = 58
+		y = 14
+
+	}
+	focus = {
+		id = sov_159
+		text = SOV_revolving_positions
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = sov_157
+		}
+		x = 56
+		y = 15
+
+	}
+	focus = {
+		id = sov_160
+		text = SOV_bring_back_exiles
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = sov_158
+		}
+		x = 58
+		y = 15
+
+	}

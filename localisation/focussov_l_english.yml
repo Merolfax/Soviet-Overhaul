@@ -2,7 +2,7 @@
  SOV_lenin_burial:0 "Lenin's Burial"
  SOV_lenin_burial_desc:0 "Stalin has ignored Lenin's burial wishes by creating a mauseleoum dedicated to him. Perhaps it is time to rectify this situation?"
  SOV_great_purge:0 "The Great Purge"
- SOV_great_purge_desc:0 "Recently Stalin has been wracked by paronoia over the assassinanion of his second in command Sergei Kirov. He is fearing a Trotskyite plot to overthrow him and he is planning a great upset of both the Party and the country to prevent it."
+ SOV_great_purge_desc:0 "Since the assassination of his second in command Sergei Kirov, Stalin has been mired in paranoia. He is fearing a Trotskyite plot to overthrow him and he is planning a great upset of both the Party and the country to prevent it."
  SOV_increased_paranoia:0 "Increased Paronoia"
  SOV_increased_paranoia_desc:0 "The scale of the purge that happened was bigger than anybody expected with nearly none of the party surviving and entire villages being executed. This can only mean one thing: The paranoia of our beloved General Secretary has progressed even further."
  SOV_businness_usual:0 "Businness As Usual"
@@ -15,6 +15,10 @@
  SOV_second_red_terror_desc:0 "A new cleansing of the countryside is needed if we are to find out Trotskyites hiding under our noses."
  SOV_incentives_betrayal:0 "Incentives For Betrayal"
  SOV_incentives_betrayal_desc:0 "Perhaps by promising a life marginally better than others, we can ensure our citizens do their duty to report subversives? Of course, if they lie, they must be a subversive!"
+ SOV_strict_rations:0 "Strict Rations"
+ SOV_strict_rations_desc:0 "We need to use our food supply for vital party operations and the modernisation of agriculture. To accomplish this, our citizens may have to make some sacrifices from their diet, but it is a necessary price for the party and the Motherland."
+ SOV_periodic_purges:0 "Periodic Purges"
+ SOV_periodic_purges_desc:0 "To ensure the safety of our beloved General Secretary we need to periodically weed out subversives from our beautiful motherland."
  
  
  
