@@ -26,6 +26,13 @@
  SOV_sticks_and_stones:0 "Sticks and Stones"
  SOV_sticks_and_stones_desc:0 "All dissent within must be crushed with excessive force if necessary. Nothing will stand in the way of the glory of the Soviet Union!"
  SOV_unseen_police:0 "Unseen Police"
- SOV_unseen_police_desc:0 "
+ SOV_unseen_police_desc:0 "Black clad gentlemen in black cars arrive in the middle of the night to have a nice chat with people who might have doubts about the perfectness of our motherland."
+ SOV_nonexistent_books:0 "Nonexistent Books"
+ SOV_nonexistent_books_desc:0 "There are some of our citzens unfortunately believing that dissenting book exist in our Union. This is, of course, a complete fabrication and these citizens mentally ill enough to believe these have been cured."
+ SOV_fictional_meetings:0 "Fictional Meetings"
+ SOV_fictional_meetings_desc:0 "When some people stop to chat in secluded areas, they seem to hint at the idea that they might not fully agree with our beloved father Stalin. Luckily for that these issues with them are fixed and they are once again members of our great nation."
+ SOV_a_different_past:0 "A Different Past"
+ SOV_a_different_past_desc:0 " There was no time in history where the Soviet Union did not stand in the defens of communism."
+ 
  
  
