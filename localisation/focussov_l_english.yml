@@ -19,6 +19,13 @@
  SOV_strict_rations_desc:0 "We need to use our food supply for vital party operations and the modernisation of agriculture. To accomplish this, our citizens may have to make some sacrifices from their diet, but it is a necessary price for the party and the Motherland."
  SOV_periodic_purges:0 "Periodic Purges"
  SOV_periodic_purges_desc:0 "To ensure the safety of our beloved General Secretary we need to periodically weed out subversives from our beautiful motherland."
- 
+ SOV_more_statues:0 "More Statues"
+ SOV_more_statues_desc:0 "Building statues to honor our beloved General Secretary will both create work for our citizens and improve the visage of our cities!"
+ SOV_claps_and_laughs:0 "Claps and Laughs"
+ SOV_claps_and_laughs_desc:0 "There is no dissent within the Soviet Union and everone loves or beloved father Stalin and nobody wants him dead and nobody is starving and life is so good."
+ SOV_sticks_and_stones:0 "Sticks and Stones"
+ SOV_sticks_and_stones_desc:0 "All dissent within must be crushed with excessive force if necessary. Nothing will stand in the way of the glory of the Soviet Union!"
+ SOV_unseen_police:0 "Unseen Police"
+ SOV_unseen_police_desc:0 "
  
  
