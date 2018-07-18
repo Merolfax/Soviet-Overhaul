@@ -2102,3 +2102,63 @@ focus_tree = {
 		y = 15
 
 	}
+	focus = {
+		id = sov_162
+		text = SOV_russophile_propaganda
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = sov_124
+		}
+		x = 63
+		y = 6
+
+	}
+	focus = {
+		id = sov_163
+		text = SOV_replace_locals_with_russians
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = sov_162
+		}
+		x = 63
+		y = 7
+
+	}
+focus = {
+		id = sov_163
+		text = SOV_displace_minorities
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = sov_163
+		}
+		x = 63
+		y = 8
+
+	}
+focus = {
+		id = sov_164
+		text = SOV_primus_inter_pares
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = sov_163
+		}
+		x = 63
+		y = 9
+
+	}	
+	focus = {
+		id = sov_165
+		text = SOV_primus_inter_pares
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = sov_164
+		}
+		x = 63
+		y = 10
+
+	}
