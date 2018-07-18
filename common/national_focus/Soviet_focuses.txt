@@ -8,12 +8,12 @@ focus_tree = {
 		}
 	}
 	default = no
-	
-	
-	
+
+
+
 	continuous_focus_position = { x = 50 y = 2400 }
-	
-	
+
+
 	focus = {
 		id = sov_0
 		text = SOV_lenin_burial
@@ -2149,10 +2149,10 @@ focus = {
 		x = 63
 		y = 9
 
-	}	
+	}
 	focus = {
 		id = sov_165
-		text = SOV_primus_inter_pares
+		text = SOV_mandatory_russian_teaching
 		icon = GFX_goal_unknown
 		cost = 5.00
 		prerequisite = {
@@ -2160,5 +2160,65 @@ focus = {
 		}
 		x = 63
 		y = 10
+
+	}
+	focus = {
+		id = sov_166
+		text = SOV_stack_the_central_committee
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = sov_124
+		}
+		x = 65
+		y = 6
+
+	}
+	focus = {
+		id = sov_167
+		text = SOV_decrease_local_authority
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = sov_166
+		}
+		x = 65
+		y = 6
+
+	}
+	focus = {
+		id = sov_168
+		text = SOV_empty_supreme_soviet
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = sov_166
+		}
+		x = 65
+		y = 7
+
+	}
+	focus = {
+		id = sov_169
+		text = SOV_politburo_supremacy
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = sov_168
+		}
+		x = 65
+		y = 8
+
+	}
+	focus = {
+		id = sov_170
+		text = SOV_keep_them_on_their_toes
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = sov_169
+		}
+		x = 65
+		y = 9
 
 	}
