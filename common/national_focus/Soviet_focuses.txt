@@ -2127,7 +2127,7 @@ focus_tree = {
 
 	}
 focus = {
-		id = sov_163
+		id = sov_164
 		text = SOV_displace_minorities
 		icon = GFX_goal_unknown
 		cost = 5.00
@@ -2139,31 +2139,31 @@ focus = {
 
 	}
 focus = {
-		id = sov_164
-		text = SOV_primus_inter_pares
-		icon = GFX_goal_unknown
-		cost = 5.00
-		prerequisite = {
-			focus = sov_163
-		}
-		x = 63
-		y = 9
-
-	}
-	focus = {
 		id = sov_165
-		text = SOV_mandatory_russian_teaching
+		text = SOV_primus_inter_pares
 		icon = GFX_goal_unknown
 		cost = 5.00
 		prerequisite = {
 			focus = sov_164
 		}
 		x = 63
-		y = 10
+		y = 9
 
 	}
 	focus = {
 		id = sov_166
+		text = SOV_mandatory_russian_teaching
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = sov_165
+		}
+		x = 63
+		y = 10
+
+	}
+	focus = {
+		id = sov_167
 		text = SOV_stack_the_central_committee
 		icon = GFX_goal_unknown
 		cost = 5.00
@@ -2175,24 +2175,12 @@ focus = {
 
 	}
 	focus = {
-		id = sov_167
+		id = sov_168
 		text = SOV_decrease_local_authority
 		icon = GFX_goal_unknown
 		cost = 5.00
 		prerequisite = {
-			focus = sov_166
-		}
-		x = 65
-		y = 6
-
-	}
-	focus = {
-		id = sov_168
-		text = SOV_empty_supreme_soviet
-		icon = GFX_goal_unknown
-		cost = 5.00
-		prerequisite = {
-			focus = sov_166
+			focus = sov_167
 		}
 		x = 65
 		y = 7
@@ -2200,7 +2188,7 @@ focus = {
 	}
 	focus = {
 		id = sov_169
-		text = SOV_politburo_supremacy
+		text = SOV_empty_supreme_soviet
 		icon = GFX_goal_unknown
 		cost = 5.00
 		prerequisite = {
@@ -2212,7 +2200,7 @@ focus = {
 	}
 	focus = {
 		id = sov_170
-		text = SOV_keep_them_on_their_toes
+		text = SOV_politburo_supremacy
 		icon = GFX_goal_unknown
 		cost = 5.00
 		prerequisite = {
@@ -2220,5 +2208,67 @@ focus = {
 		}
 		x = 65
 		y = 9
+
+	}
+	focus = {
+		id = sov_171
+		text = SOV_keep_them_on_their_toes
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = sov_170
+		}
+		x = 65
+		y = 10
+
+	}
+	focus = {
+		id = sov_172
+		text = SOV_fake_autonomies
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = sov_166
+		}
+		x = 63
+		y = 11
+
+	}
+	focus = {
+		id = sov_173
+		text = SOV_use_the_nomenklatura
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = sov_171
+		}
+		x = 65
+		y = 11
+
+	}
+	}
+	focus = {
+		id = sov_174
+		text = SOV_continue_the_purge
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = sov_124
+		}
+		x = 67
+		y = 6
+
+	}
+	}
+	focus = {
+		id = sov_175
+		text = SOV_eradicate_the_left_opposition
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = sov_174
+		}
+		x = 67
+		y = 7
 
 	}
