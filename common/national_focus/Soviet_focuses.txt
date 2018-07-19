@@ -2325,7 +2325,11 @@ focus = {
 		cost = 5.00
 		prerequisite = {
 			focus = sov_172
+		}
+		prerequisite = {
 			focus = sov_173
+		}
+		prerequisite = {
 			focus = sov_179
 		}
 		x = 69
@@ -2402,5 +2406,118 @@ focus = {
 		}
 		x = 68
 		y = 15
+
+	}
+	focus = {
+		id = sov_187
+		text = SOV_steady_as_she_goes
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = sov_172
+		}
+		prerequisite = {
+			focus = sov_173
+		}
+		prerequisite = {
+			focus = sov_179
+		}
+		mutually_exclusive = {
+			focus = sov_180
+		}
+		x = 61
+		y = 12
+
+	}
+	focus = {
+		id = sov_188
+		text = SOV_traditional_roles
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = sov_187
+		}
+		x = 60
+		y = 13
+
+	}
+	focus = {
+		id = sov_189
+		text = SOV_recriminalize_homosexuality
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = sov_188
+		}
+		x = 60
+		y = 14
+
+	}
+	focus = {
+		id = sov_190
+		text = SOV_social_consevativism
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = sov_189
+		}
+		x = 60
+		y = 15
+
+	}
+	focus = {
+		id = sov_191
+		text = SOV_finish_off_the_right
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = sov_187
+		}
+		x = 62
+		y = 13
+
+	}
+	focus = {
+		id = sov_192
+		text = SOV_keep_the_ban
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = sov_191
+		}
+		x = 62
+		y = 14
+
+	}
+	focus = {
+		id = sov_193
+		text = SOV_centre_supremacy
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = sov_192
+		}
+		x = 62
+		y = 15
+
+	}
+	focus = {
+		id = sov_194
+		text = SOV_united_behind_the_party
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = sov_154
+			focus = sov_155
+			focus = sov_160
+			focus = sov_161
+			focus = sov_183
+			focus = sov_186
+			focus = sov_190
+			focus = sov_193
+		}
+
+		x = 59
+		y = 16
 
 	}
