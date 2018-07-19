@@ -8,8 +8,19 @@ spriteTypes = {
 	name = "GFX_soviet_shield"
 	texturefile = "gfx/interface/goals/soviet_shield.dds"			
 	}	
+	
 	SpriteType = {
 	name = "GFX_the_eternal_leader"
 	texturefile = "gfx/interface/goals/focus_the_eternal_leader.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_lenin_burial"
+	texturefile = "gfx/interface/goals/focus_lenin_burial.dds"			
 	}	
+	
+	SpriteType = {
+	name = "GFX_tsar_soviets"
+	texturefile = "gfx/interface/goals/focus_tsar_with_the_soviets.dds"			
+	}
 }
