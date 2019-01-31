@@ -1,6 +1,6 @@
 ﻿ l_english:
-    TSO_communism:0 "Union of Soviet Tsardoms"
-    TSO_communism_DEF:0 "The Union of Soviet Tsardoms"
+	TSO_communism:0 "Union of Soviet Tsardoms"
+	TSO_communism_DEF:0 "The Union of Soviet Tsardoms"
 	TSO_communism_ADJ:0 "Soviet"
 	TSO_neutrality:0 "Russian Empire"
 	TSO_neutrality_DEF:0 "The Russian Empire"
@@ -11,4 +11,3 @@
 	TSO_fascism:0 "Russian State"
 	TSO_fascism_DEF:0 "The Russian Empire"
 	TSO_fascism_ADJ:0 "Russian"
-	
